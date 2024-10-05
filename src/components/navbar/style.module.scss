@@ -1,0 +1,11 @@
+.navbar{
+    padding: 30px 0px;
+    .navlink{
+        display: flex;
+        gap: 30px;
+        align-items: start;
+        font-size: 20px;
+        font-weight: bolder;
+        color: #3F51B5;
+    }
+}

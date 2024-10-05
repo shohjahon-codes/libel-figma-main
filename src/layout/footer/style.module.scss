@@ -1,0 +1,38 @@
+.footer {
+    display: flex;
+    flex-direction: column;
+    background: #EEF4FF;
+    margin-top: 120px;
+
+    &__item {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+
+    &__top {
+        display: flex;
+        justify-content: space-between;
+        padding: 20px 170px 20px 0px;
+
+
+        &__links {
+            display: flex;
+            flex-direction: column;
+            gap: 7px;
+
+
+        }
+    }
+
+    &__bottom {
+        display: flex;
+        justify-content: space-between;
+        padding: 20px 170px 20px 0px;
+    }
+}
+.footer_but_path {
+    background: #10182C;
+    color: white;
+}

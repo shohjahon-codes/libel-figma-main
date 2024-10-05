@@ -1,0 +1,84 @@
+.header {
+    padding-top: 20px;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    
+    // justify-content: space-between;  
+
+    .header_form {
+        display: flex;
+        gap: 10px;
+
+        .ruknlar {
+            display: flex;
+            border: 1px solid #E1E1E1;
+            padding: 9px 19px;
+            border-radius: 10px 0px 0px 10px;
+
+            select {
+                border: none;
+                outline: none;
+                color: #3F51B5;
+                font-weight: bold;
+            }
+        }
+
+        .input {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            border: 1px solid #E1E1E1;
+            width: 555px;
+            padding: 0px 0px 0px 20px;
+            border-top-right-radius: 10px;
+            border-bottom-right-radius: 10px;
+            background: #F8F8F8;
+
+
+            input {
+                border: none;
+                outline: none;
+                height: 100%;
+                border-right: 1px solid #E1E1E1;
+                width: 90%;
+                background: #F8F8F8;
+            }
+        }
+
+    }
+
+    .header_right {
+        display: flex;
+        gap: 12px;
+        align-items: center;
+
+        .option {
+            display: flex;
+            gap: 10px;
+            align-items: center;
+            padding: 5px;
+            background: #EEF4FF;
+            padding: 12px;
+            border-radius: 14px;
+
+            select {
+                font-weight: bold;
+                color: #3F51B5;
+                outline: none;
+                border: none;
+                background: #EEF4FF;
+
+            }
+        }
+
+        .profile {
+            padding: 10px 30px;
+            border-radius: 14px;
+            display: flex;
+            color: white;
+            background: #3F51B5;
+            font-weight: bold;
+        }
+    }
+}
